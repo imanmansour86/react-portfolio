@@ -1,7 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import PortfolioContainer from "./components/PortfolioContainer";
+import Header from "./components/Header";
+import Project from "./components/Project";
 
 const projects = [
   {
@@ -24,6 +25,11 @@ const projects = [
   },
 ];
 
-const App = () => <PortfolioContainer />;
-
-export default App;
+function App() {
+  return (
+    <div>
+      <Header />
+      <Project projects={projects} />
+    </div>
+  );
+}
