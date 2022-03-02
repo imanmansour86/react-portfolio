@@ -1,10 +1,16 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Header from "./components/Header";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Project from "./components/Project";
 
 function App() {
-  return <Header />;
+  return (
+    <div>
+      <Header />
+      <Project />
+    </div>
+  );
 }
 
 export default App;
