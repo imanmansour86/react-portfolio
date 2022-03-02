@@ -7,7 +7,8 @@
 
   font-size: 24px;
   cursor: pointer;
-  font-family: "Barlow";
+  /* font-family: "Barlow"; */
+  font-family: "Fira Sans", sans-serif;
 }
 
 .nav-link:hover {
@@ -26,6 +27,7 @@ body {
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .head-links {
@@ -47,4 +49,20 @@ body {
   padding-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+h3 {
+  line-height: 5rem;
+  margin: 0.5rem;
+}
+
+.container {
+  width: 70%;
 }
