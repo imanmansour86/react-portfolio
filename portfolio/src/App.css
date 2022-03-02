@@ -31,3 +31,20 @@ body {
 .head-links {
   padding-top: 20px;
 }
+
+.card-link {
+  border-radius: 7px;
+  border: solid 1px #20538d;
+  line-height: 40px;
+  background: #4479ba;
+  color: #fff;
+  padding: 8px 12px;
+  text-decoration: none;
+  height: 32.4px;
+  line-height: 50px;
+}
+.row {
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
