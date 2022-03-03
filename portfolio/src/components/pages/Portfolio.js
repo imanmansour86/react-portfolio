@@ -1,5 +1,4 @@
 import React from "react";
-import getMoving from "./getMoving";
 
 const projects = [
   {
@@ -89,9 +88,7 @@ const Portfolio = () => {
                 <i className="fa fa-desktop"></i>&nbsp; Deployed
               </a>
             </div>
-            <div className="col-md-8 .col-xs-6">
-              <img src={require("/images/getMoving.gif")} />
-            </div>
+            <div className="col-md-8 .col-xs-6"></div>
           </div>
         </div>
       ))}

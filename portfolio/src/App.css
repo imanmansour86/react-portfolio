@@ -15,7 +15,17 @@
   -webkit-text-stroke: 2px #050505;
 }
 
-h1 {
+h1,
+h3 {
+  margin: 0;
+  font-family: "Leckerli One", cursive;
+  text-shadow: 0 2px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  color: #1b9aaa;
+  font-size: 2.7rem;
+}
+
+.card-tile {
   margin: 0;
   font-family: "Leckerli One", cursive;
   text-shadow: 0 2px rgba(0, 0, 0, 0.5);
