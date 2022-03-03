@@ -1,6 +1,6 @@
 import React from "react";
 
-const NavTabs = ({ currentPage, handlePageChange }) => {
+const NavTabs = ({ currentPage, handlPageChange }) => {
   return (
     <div className="top">
       <div className="head-links">
@@ -10,7 +10,7 @@ const NavTabs = ({ currentPage, handlePageChange }) => {
               className="nav-link active"
               aria-current="page"
               href="#about"
-              onClick={() => handlePageChange("About Me")}
+              onClick={() => handlPageChange("About")}
             >
               About Me
             </a>
@@ -19,7 +19,7 @@ const NavTabs = ({ currentPage, handlePageChange }) => {
             <a
               className="nav-link"
               href="#portfolio"
-              onClick={() => handlePageChange("Portfolio")}
+              onClick={() => handlPageChange("Portfolio")}
             >
               Portfolio
             </a>
@@ -28,7 +28,7 @@ const NavTabs = ({ currentPage, handlePageChange }) => {
             <a
               className="nav-link"
               href="#contact"
-              onClick={() => handlePageChange("Contact")}
+              onClick={() => handlPageChange("Contact")}
             >
               Contact
             </a>
@@ -37,7 +37,7 @@ const NavTabs = ({ currentPage, handlePageChange }) => {
             <a
               className="nav-link"
               href="#resume"
-              onClick={() => handlePageChange("Resume")}
+              onClick={() => handlPageChange("Resume")}
             >
               Resume
             </a>
@@ -45,7 +45,7 @@ const NavTabs = ({ currentPage, handlePageChange }) => {
         </ul>
       </div>
       <div className="head">
-        <h1>Iman Mansour</h1>
+        <h1 className="name">Iman Mansour</h1>
       </div>
     </div>
   );

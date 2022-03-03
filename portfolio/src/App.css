@@ -3,23 +3,28 @@
   padding-bottom: 30px;
 }
 .nav-link {
-  color: black !important;
+  color: #1b9aaa !important;
 
   font-size: 24px;
   cursor: pointer;
-  /* font-family: "Barlow"; */
+  font-family: "Barlow";
   font-family: "Fira Sans", sans-serif;
 }
 
 .nav-link:hover {
-  color: gray;
-  -webkit-text-stroke: 2px rgb(65, 41, 41);
+  -webkit-text-stroke: 2px #050505;
 }
 
 h1 {
   margin: 0;
   font-family: "Leckerli One", cursive;
   text-shadow: 0 2px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  color: #1b9aaa;
+}
+
+.name {
+  color: #050505;
   text-align: center;
 }
 body {
