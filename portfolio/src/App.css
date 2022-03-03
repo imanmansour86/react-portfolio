@@ -25,6 +25,10 @@ h3 {
   font-size: 2.7rem;
 }
 
+.copyright {
+  color: #1b9aaa !important;
+  font-size: 0.9rem;
+}
 label {
   margin: 0;
   font-family: "Leckerli One";
@@ -103,6 +107,14 @@ h3 {
 .form {
   width: 50%;
   margin: 50px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Height of the footer */
+  background: #6cf;
 }
 
 @media only screen and (max-width: 900px) {

@@ -1,43 +1,63 @@
 import React from "react";
 
+const styles = {
+  footer: {
+    backgroundColor: "#f1f1f1",
+  },
+  copyright: {
+    color: "#1b9aaa",
+    fontSize: "0.9rem",
+  },
+  google: {
+    backgroundColor: "#dd4b39",
+  },
+  github: {
+    backgroundColor: "#333333",
+  },
+  linkedIn: {
+    backgroundColor: "#0082ca",
+  },
+};
+
 const Footer = () => {
   return (
-    <footer className="text-center">
-      <div className="container pt-4" id="contact">
+    <footer className="text-center text-white" style={styles.footer}>
+      <div className="container pt-4">
         <section className="mb-4">
           <a
-            target="blank"
-            className="btn btn-link btn-floating btn-lg text-dark m-1"
+            className="btn btn-primary btn-floating m-1"
+            style={styles.google}
             href="mailto:imanmansour86@gmail.com"
             role="button"
-            data-mdb-ripple-color="dark"
           >
-            <i className="fab fa-google"></i>
+            <i class="fab fa-google"></i>
           </a>
 
           <a
-            target="blank"
-            className="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="https://www.linkedin.com/in/imanmansour/"
-            role="button"
-            data-mdb-ripple-color="dark"
-          >
-            <i className="fab fa-linkedin"></i>
-          </a>
-
-          <a
-            target="blank"
-            className="btn btn-link btn-floating btn-lg text-dark m-1"
+            className="btn btn-primary btn-floating m-1"
+            style={styles.github}
             href="https://github.com/imanmansour86"
             role="button"
-            data-mdb-ripple-color="dark"
           >
-            <i className="fab fa-github"></i>
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a
+            className="btn btn-primary btn-floating m-1"
+            style={styles.linkedIn}
+            href="https://www.linkedin.com/in/imanmansour/"
+            role="button"
+          >
+            <i class="fab fa-linkedin-in"></i>
           </a>
         </section>
       </div>
-      <div className="text-center copyright p-3 copyright">
-        © 2022 Copyright Iman Mansour
+
+      <div
+        className="text-center text-dark p-3 copyright"
+        style={styles.copyright}
+      >
+        © 2020 Copyright Iman Mansour
       </div>
     </footer>
   );

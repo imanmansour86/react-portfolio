@@ -47,7 +47,6 @@ const NavTabs = ({ currentPage, handlPageChange }) => {
       <div className="head">
         <h1 className="name">Iman Mansour</h1>
       </div>
-      <footer>test</footer>
     </div>
   );
 };
