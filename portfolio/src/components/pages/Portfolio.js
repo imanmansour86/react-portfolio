@@ -1,4 +1,6 @@
 import React from "react";
+import getMoving from "../../assets/getMoving.gif";
+import maptest from "../../assets/maptest.gif";
 
 const projects = [
   {
@@ -72,7 +74,6 @@ const projects = [
 const Portfolio = () => {
   return (
     <div className="container">
-      <h1 className="card-title">Portfolio</h1>
       {projects.map((project) => (
         <div>
           <h3>{project.title}</h3>
@@ -89,7 +90,9 @@ const Portfolio = () => {
                 <i className="fa fa-desktop"></i>&nbsp; Deployed
               </a>
             </div>
-            <div className="col-md-8 .col-xs-6"></div>
+            <div className="col-md-8 .col-xs-6">
+              <img src={require(`../../assets/${project.image}`)} />
+            </div>
           </div>
         </div>
       ))}
