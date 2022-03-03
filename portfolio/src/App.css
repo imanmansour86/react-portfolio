@@ -23,11 +23,12 @@ h1 {
   text-align: center;
 }
 body {
-  background-image: url("https://media.istockphoto.com/photos/old-wall-texture-cement-dirty-gray-with-black-background-abstract-picture-id1197671817?k=20&m=1197671817&s=612x612&w=0&h=JpWaOE6719Uft5VZiqKJy2jVbzMkkgUezSI4hKNEFNY=");
+  /* background-image: url("https://media.istockphoto.com/photos/old-wall-texture-cement-dirty-gray-with-black-background-abstract-picture-id1197671817?k=20&m=1197671817&s=612x612&w=0&h=JpWaOE6719Uft5VZiqKJy2jVbzMkkgUezSI4hKNEFNY=");
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: cover;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif; */
+  background-color: #f5f1e3;
 }
 
 .head-links {
