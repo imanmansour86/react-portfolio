@@ -82,3 +82,14 @@ h3 {
 .container {
   width: 70%;
 }
+
+.form {
+  width: 50%;
+  margin: 50px;
+}
+
+@media only screen and (max-width: 900px) {
+  .form {
+    width: 80%;
+  }
+}

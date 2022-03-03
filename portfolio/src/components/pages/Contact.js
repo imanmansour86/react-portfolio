@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="form">
       <form>
         <div className="form-group">
           <label for="exampleInputEmail1">Name</label>
@@ -11,7 +11,7 @@ const Contact = () => {
             className="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
-            placeholder="Enter email"
+            placeholder="Enter name"
           />
           <small id="emailHelp" className="form-text text-muted">
             We'll never share your email with anyone else.
@@ -50,7 +50,7 @@ const Contact = () => {
           </label>
         </div>
         <button type="submit" className="btn btn-primary">
-          Submit
+          Send
         </button>
       </form>
     </div>
