@@ -20,7 +20,7 @@ const projects = [
     repoLink: "https://github.com/imanmansour86/social-network-API",
     demoLink:
       "https://drive.google.com/file/d/13MybBc7J8yTOBMMDrfyQrGuwH1rOQ4CJ/view",
-    image: "getMoving.gif",
+    image: "socialAPI.gif",
   },
 
   {
@@ -30,16 +30,16 @@ const projects = [
       "CMS-style blog site where users can publish blog posts and comment on other’ posts . The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication",
     repoLink: "https://github.com/imanmansour86/tech-blog",
     demoLink: "https://quiet-mesa-73726.herokuapp.com/",
-    image: "getMoving.gif",
+    image: "techblog.gif",
   },
   {
     id: 4,
     title: "Employee Tracker",
     description:
-      "A command-line application that manages a company's employee database. It allows to easily view and interact with employee information stored in databases.Built using Node.js, Inquirer, and MySQL.",
+      "A command-line application that manages a company's employee database. It allows to easily view and interact with employee information stored in databases.Built using Node.js, Inquirer, and MySQL",
     repoLink: "https://github.com/imanmansour86/Employee-Tracker",
     demoLink: "https://watch.screencastify.com/v/NEtzeYUpvafSa7xJlmxW",
-    image: "getMoving.gif",
+    image: "employeeTracker.gif",
   },
   {
     id: 5,
@@ -48,16 +48,25 @@ const projects = [
       "Location based COVID tests app that shows testing location near you based on user's lat/lng or an address. The test site is displayed as a marker on the map with test locations in infowindow",
     repoLink: "https://github.com/imanmansour86/find-covid-testing",
     demoLink: "https://laurendarrimon.github.io/find-covid-testing/",
-    image: "getMoving.gif",
+    image: "maptest.gif",
   },
   {
     id: 6,
     title: "Weather Dashboard",
     description:
-      " An app that allows users to see weather conditions for cities. Using OpenWeather API, weather data for cities is displayed. The app uses Geocoding API as well as One Call API to get the results by city name then get the lat/lng to build our data.",
+      " An app that allows users to see weather conditions for cities. Using OpenWeather API, weather data for cities is displayed. The app uses Geocoding API as well as One Call API to get the results by city name then get the lat/lng to build our data",
     repoLink: "https://github.com/imanmansour86/weather-dashboard",
     demoLink: "https://imanmansour86.github.io/weather-dashboard/",
-    image: "getMoving.gif",
+    image: "weather.gif",
+  },
+  {
+    id: 7,
+    title: "Code Quiz",
+    description:
+      "A timed quiz coding app about JavaScript fundamentals. It runs in the browser and features dynamically updated content powered by Javascript",
+    repoLink: "https://github.com/imanmansour86/code-quiz",
+    demoLink: "https://imanmansour86.github.io/weather-dashboard/",
+    image: "quiz.gif",
   },
 ];
 
