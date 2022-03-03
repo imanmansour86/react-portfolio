@@ -25,6 +25,15 @@ h3 {
   font-size: 2.7rem;
 }
 
+label {
+  margin: 0;
+  font-family: "Leckerli One";
+  text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  color: #1b9aaa;
+  font-size: 1.4rem;
+}
+
 .card-tile {
   margin: 0;
   font-family: "Leckerli One", cursive;
@@ -60,6 +69,14 @@ body {
   text-decoration: none;
   height: 32.4px;
   line-height: 50px;
+}
+
+.btn-primary {
+  border-radius: 7px;
+  background: #4479ba;
+  color: #fff;
+  padding: 8px 12px;
+  height: auto;
 }
 .row {
   padding-bottom: 20px;

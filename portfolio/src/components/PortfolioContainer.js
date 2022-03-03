@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
+import Footer from "./Footer";
 
 const PortfolioContainer = () => {
   //set initial state to render Portfolio
@@ -32,6 +33,7 @@ const PortfolioContainer = () => {
     <div>
       <NavTabs currentPage={currentPage} handlPageChange={handlPageChange} />
       {renderPage()}
+      <Footer />
     </div>
   );
 };
