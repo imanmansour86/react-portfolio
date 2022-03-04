@@ -33,7 +33,7 @@ const PortfolioContainer = () => {
     <div>
       <NavTabs currentPage={currentPage} handlPageChange={handlPageChange} />
       {renderPage()}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

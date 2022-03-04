@@ -51,13 +51,12 @@ const Footer = () => {
             <i className="fa fa-linkedin"></i>
           </a>
         </section>
-      </div>
-
-      <div
-        className="text-center text-dark p-3 copyright"
-        style={styles.copyright}
-      >
-        © 2020 Copyright Iman Mansour
+        <div
+          className="text-center text-dark p-3 copyright"
+          style={styles.copyright}
+        >
+          © 2020 Copyright Iman Mansour
+        </div>
       </div>
     </footer>
   );
