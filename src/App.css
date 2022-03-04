@@ -24,6 +24,12 @@ h3 {
   font-size: 2.7rem;
 }
 
+h4 {
+  font-family: "Roboto ", sans-serif;
+  font-size: 1.9rem;
+  color: #1b9aaa;
+}
+
 .copyright {
   color: #1b9aaa !important;
   font-size: 0.9rem;
@@ -126,4 +132,8 @@ footer {
   width: 200px;
   border-radius: 50%;
   margin-top: -10px;
+}
+
+.skills {
+  padding-left: 20px;
 }

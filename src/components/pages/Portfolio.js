@@ -72,9 +72,10 @@ const projects = [
 const Portfolio = () => {
   return (
     <div className="container">
+      <h3>Portfolio</h3>
       {projects.map((project) => (
         <div>
-          <h3>{project.title}</h3>
+          <h4>{project.title}</h4>
           <div key={project.id} className="row">
             <div className="col-md-4 .col-xs-12">
               <p>{project.description}</p>
