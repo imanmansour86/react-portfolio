@@ -20,7 +20,7 @@ const Contact = () => {
       setMessage(inputValue)
      }
      if (!email || !userName || !message) {
-      setErrorMessage(inputType+ " Required");
+      setErrorMessage(inputType+ " is required");
   };
   }
 
@@ -34,7 +34,7 @@ const Contact = () => {
       return
      }
      if (inputType==="email" && !validateEmail(inputValue))
-      setErrorMessage("email invalid")
+      setErrorMessage("Email is invalid")
   };
   
 

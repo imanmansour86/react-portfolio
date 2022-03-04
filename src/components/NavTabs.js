@@ -5,9 +5,9 @@ const NavTabs = ({ currentPage, handlPageChange }) => {
     <div className="top">
       <div className="head-links">
         <ul className="nav justify-content-center">
-          <li className="nav-item">
+          <li className="nav-item ">
             <a
-              className="nav-link active"
+              className={currentPage === 'About'? "nav-link notactive " : "nav-link  " }
               aria-current="page"
               href="#about"
               onClick={() => handlPageChange("About")}
@@ -17,7 +17,7 @@ const NavTabs = ({ currentPage, handlPageChange }) => {
           </li>
           <li className="nav-item">
             <a
-              className="nav-link"
+            className={currentPage === 'Portfolio'? "nav-link notactive " : "nav-link  " }
               href="#portfolio"
               onClick={() => handlPageChange("Portfolio")}
             >
@@ -26,7 +26,7 @@ const NavTabs = ({ currentPage, handlPageChange }) => {
           </li>
           <li className="nav-item">
             <a
-              className="nav-link"
+         className={currentPage === 'Contact'? "nav-link notactive " : "nav-link  " }
               href="#contact"
               onClick={() => handlPageChange("Contact")}
             >
@@ -35,7 +35,7 @@ const NavTabs = ({ currentPage, handlPageChange }) => {
           </li>
           <li className="nav-item">
             <a
-              className="nav-link"
+            className={currentPage === 'Resume'? "nav-link notactive " : "nav-link  " }
               href="#resume"
               onClick={() => handlPageChange("Resume")}
             >

@@ -5,10 +5,19 @@
 .nav-link {
   color: #1b9aaa !important;
 
-  font-size: 24px;
+  font-size: 20px;
   cursor: pointer;
   font-family: "Roboto ", sans-serif;
 }
+
+
+.notactive {
+  color: #050505 !important;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Roboto ", sans-serif;
+
+} 
 
 .nav-link:hover {
   -webkit-text-stroke: 2px #050505;

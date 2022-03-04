@@ -28,10 +28,10 @@ const Resume = () => {
             <li>Git/Github</li>
           </ul>
         </div>
-{/* <iframe src={resume}/>  */}
-         <a href='resume.pdf' className="card-link" target="_blank">
 
-         
+         <a href="https://github.com/imanmansour86/react-portfolio/blob/main/Iman_Mansour_Resume%20.pdf" className="card-link" target="_blank">
+
+
           {" "}
           <i className="fa fa-file"></i> &nbsp;View Resume{" "}
         </a> 
