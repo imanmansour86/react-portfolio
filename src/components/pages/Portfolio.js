@@ -44,7 +44,7 @@ const projects = [
   },
   {
     id: 5,
-    title: "MapATest",
+    title: "Map-A-Test",
     description:
       "Location based COVID tests app that shows testing location near you based on user's lat/lng or an address. The test site is displayed as a marker on the map with test locations in infowindow",
     repoLink: "https://github.com/imanmansour86/find-covid-testing",

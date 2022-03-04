@@ -7,8 +7,7 @@
 
   font-size: 24px;
   cursor: pointer;
-  font-family: "Barlow";
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Roboto ", sans-serif;
 }
 
 .nav-link:hover {
@@ -18,8 +17,8 @@
 h1,
 h3 {
   margin: 0;
-  font-family: "Leckerli One", cursive;
-  text-shadow: 0 2px rgba(0, 0, 0, 0.5);
+  font-family: "Roboto ", sans-serif;
+
   text-align: left;
   color: #1b9aaa;
   font-size: 2.7rem;
@@ -32,7 +31,7 @@ h3 {
 label {
   margin: 0;
   font-family: "Leckerli One";
-  text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+
   text-align: left;
   color: #1b9aaa;
   font-size: 1.4rem;
@@ -41,7 +40,7 @@ label {
 .card-tile {
   margin: 0;
   font-family: "Leckerli One", cursive;
-  text-shadow: 0 2px rgba(0, 0, 0, 0.5);
+
   text-align: left;
   color: #1b9aaa;
 }

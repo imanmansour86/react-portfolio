@@ -30,7 +30,7 @@ const Footer = () => {
             href="mailto:imanmansour86@gmail.com"
             role="button"
           >
-            <i class="fab fa-google"></i>
+            <i className="fa fa-google"></i>
           </a>
 
           <a
@@ -39,7 +39,7 @@ const Footer = () => {
             href="https://github.com/imanmansour86"
             role="button"
           >
-            <i class="fab fa-github"></i>
+            <i className="fa fa-github"></i>
           </a>
 
           <a
@@ -48,7 +48,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/imanmansour/"
             role="button"
           >
-            <i class="fab fa-linkedin-in"></i>
+            <i className="fa fa-linkedin"></i>
           </a>
         </section>
       </div>
