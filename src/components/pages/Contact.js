@@ -23,13 +23,14 @@ const Contact = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    if (!validateEmail || !userName) {
-      setErrorMessage("Email or username is invalid");
+    if (!validateEmail || !userName || !message) {
+      setErrorMessage("Email or username or message is invalid");
       return;
     }
     setEmail("");
     setUserName("");
     setMessage("");
+    setErrorMessage("");
   };
 
   return (
@@ -42,7 +43,7 @@ const Contact = () => {
             value={userName}
             name="userName"
             onChange={handleInputChange}
-            type="userName"
+            type="text"
             className="form-control"
             aria-describedby="emailHelp"
             placeholder="username"
@@ -57,6 +58,7 @@ const Contact = () => {
             value={email}
             onChange={handleInputChange}
             type="email"
+            name="email"
             className="form-control"
             aria-describedby="emailHelp"
             placeholder="Enter email"
