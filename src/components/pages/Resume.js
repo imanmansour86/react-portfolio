@@ -1,5 +1,4 @@
 import React from "react";
-// import resume from "../../assets/resume.pdf";
 
 const Resume = () => {
   return (
@@ -29,11 +28,13 @@ const Resume = () => {
             <li>Git/Github</li>
           </ul>
         </div>
-{/* <iframe src={resume}/> */}
-        {/* <a href={require("../../assets/resume.pdf")} className="card-link" target="_blank">
+{/* <iframe src={resume}/>  */}
+         <a href='resume.pdf' className="card-link" target="_blank">
+
+         
           {" "}
           <i className="fa fa-file"></i> &nbsp;View Resume{" "}
-        </a> */}
+        </a> 
       </div>
     </div>
   );

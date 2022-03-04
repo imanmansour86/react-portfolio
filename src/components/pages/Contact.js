@@ -17,9 +17,26 @@ const Contact = () => {
     } else if (inputType === "userName") {
       setUserName(inputValue);
     } else {
-      setMessage(inputValue);
-    }
+      setMessage(inputValue)
+     }
+     if (!email || !userName || !message) {
+      setErrorMessage(inputType+ " Required");
   };
+  }
+
+  const handleInputBlur = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+     if (!email || !userName || !message) {
+      setErrorMessage("Required");
+      return
+     }
+     if (inputType==="email" && !validateEmail(inputValue))
+      setErrorMessage("email invalid")
+  };
+  
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -41,6 +58,7 @@ const Contact = () => {
           <label for="exampleInputEmail1">Name</label>
           <input
             value={userName}
+            onBlur={handleInputBlur}
             name="userName"
             onChange={handleInputChange}
             type="text"
@@ -57,6 +75,7 @@ const Contact = () => {
           <input
             value={email}
             onChange={handleInputChange}
+            onBlur={handleInputBlur}
             type="email"
             name="email"
             className="form-control"
@@ -71,6 +90,7 @@ const Contact = () => {
           <label for="exampleFormControlTextarea1">Message</label>
           <textarea
             onChange={handleInputChange}
+            onBlur={handleInputBlur}
             className="form-control"
             rows="3"
             value={message}
