@@ -1,6 +1,4 @@
 import React from "react";
-import getMoving from "../../assets/getMoving.gif";
-import maptest from "../../assets/maptest.gif";
 
 const projects = [
   {
