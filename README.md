@@ -6,7 +6,7 @@
 
 # Portfolio
 
-This website shows Portfolio built in React that has several componenets. Deployed on Github Pages
+This website shows Portfolio built in React that has several componenets. Some components have animations using React Reveal. Deployed on Github Pages
 
 ## Deployed Link
 
@@ -40,6 +40,7 @@ The app has Header, Navigation, Project, Error and Footer components. The Header
 ## Built With
 
 - [React](https://reactjs.org/)
+- [React Reveal](https://www.react-reveal.com/)
 
 ## Author
 
