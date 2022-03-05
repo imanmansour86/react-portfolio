@@ -156,3 +156,9 @@ position: static;
   margin-top: auto;
   padding-top: 200px;
 }
+
+a:hover {
+  text-decoration: none;
+  color: #1B9AAA !important;
+
+}
