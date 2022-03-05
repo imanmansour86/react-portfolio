@@ -33,7 +33,7 @@ const Resume = () => {
 
 
           {" "}
-          <i className="fa fa-file"></i> &nbsp;View Resume{" "}
+          <i className="fa fa-file"></i> &nbsp;Open Resume{" "}
         </a>  }
 
  <div id='resume' class='resume'>

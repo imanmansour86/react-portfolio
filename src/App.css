@@ -135,6 +135,18 @@ footer {
   .form {
     width: 80%;
   }
+
+  iframe{
+    width: 50%;
+
+
+  }
+
+  .nav-link {
+
+    font-size: 15px;
+  }
+ 
 }
 
 .my-image {
@@ -166,5 +178,6 @@ a:hover {
 
 iframe{
   width: 100%;
-  height: 500%;
+  height: 170vh;
+  overflow: hidden;
 }

@@ -1,53 +1,53 @@
 import React, { useState } from "react";
 import validateEmail from "../../utils/helpers";
 
+const emptyObject = { value: "", error: undefined };
 const Contact = () => {
-  const [email, setEmail] = useState("");
-  const [userName, setUserName] = useState("");
-  const [message, setMessage] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
+  const [email, setEmail] = useState(emptyObject);
+  const [userName, setUserName] = useState(emptyObject);
+  const [message, setMessage] = useState(emptyObject);
 
   const handleInputChange = (e) => {
     const { target } = e;
     const inputType = target.name;
-    const inputValue = target.value;
 
+    const newValue = { value: target.value, error: undefined };
     if (inputType === "email") {
-      setEmail(inputValue);
+      setEmail(newValue);
     } else if (inputType === "userName") {
-      setUserName(inputValue);
+      setUserName(newValue);
     } else {
-      setMessage(inputValue)
-     }
-     if (!email || !userName || !message) {
-      setErrorMessage(inputType+ " is required");
+      setMessage(newValue);
+    }
+    validateAll();
   };
-  }
 
-  const handleInputBlur = (e) => {
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
-
-     if (!email || !userName || !message) {
-      setErrorMessage("Required");
-      return
-     }
-     if (inputType==="email" && !validateEmail(inputValue))
-      setErrorMessage("Email is invalid")
+  const handleInputBlur = () => {
+    validateAll();
   };
-  
+
+  const validateAll = () => {
+    if (!validateEmail(email.value)) {
+      setEmail({ value: email.value, error: "Invalid email" });
+      return false;
+    }
+    if (!userName.value) {
+      setUserName({ value: userName.value, error: "Invalid username" });
+      return false;
+    }
+    if (!message.value) {
+      setMessage({ value: message.value, error: "Invalid message" });
+      return false;
+    }
+    return true;
+  };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    if (!validateEmail || !userName || !message) {
-      setErrorMessage("Email or username or message is invalid");
-      return;
-    }
-    setEmail("");
-    setUserName("");
-    setMessage("");
-    setErrorMessage("");
+    if (!validateAll()) return;
+    setEmail(emptyObject);
+    setUserName(emptyObject);
+    setMessage(emptyObject);
   };
 
   return (
@@ -57,14 +57,14 @@ const Contact = () => {
         <div className="form-group">
           <label for="exampleInputEmail1">Name</label>
           <input
-            value={userName}
+            value={userName.value}
             onBlur={handleInputBlur}
             name="userName"
             onChange={handleInputChange}
             type="text"
             className="form-control"
             aria-describedby="emailHelp"
-            placeholder="username"
+            placeholder="Enter name"
           />
           <small id="emailHelp" className="form-text text-muted">
             We'll never share your email with anyone else.
@@ -73,7 +73,7 @@ const Contact = () => {
         <div className="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input
-            value={email}
+            value={email.value}
             onChange={handleInputChange}
             onBlur={handleInputBlur}
             type="email"
@@ -93,9 +93,10 @@ const Contact = () => {
             onBlur={handleInputBlur}
             className="form-control"
             rows="3"
-            value={message}
+            value={message.value}
             type="message"
             name="message"
+            placeholder="Enter message"
           ></textarea>
         </div>
         <div className="form-check"></div>
@@ -108,11 +109,6 @@ const Contact = () => {
           Send &rarr; &nbsp;<i className="fa-solid fa-chevrons-right"></i>
         </button>
       </form>
-      {errorMessage && (
-        <div>
-          <p>{errorMessage}</p>
-        </div>
-      )}
     </div>
   );
 };
