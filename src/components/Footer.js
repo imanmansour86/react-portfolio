@@ -55,7 +55,7 @@ const Footer = () => {
           className="text-center text-dark p-3 copyright"
           style={styles.copyright}
         >
-          © 2020 Copyright Iman Mansour
+          © 2022 Copyright Iman Mansour
         </div>
       </div>
     </footer>

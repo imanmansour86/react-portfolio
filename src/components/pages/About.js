@@ -7,17 +7,11 @@ const About = () => {
         <h3>About me</h3>
         <div className="row">
           <div className="col-md-8 .col-xs-12">
+          
             <p>
               {" "}
-              Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-              // Integer gravida dui mauris, ut interdum nunc egestas sed.
-              Aenean sed // mollis diam. Nunc aliquet risus ac finibus porta.
-              Nam quis arcu non // lectus tincidunt fermentum. Suspendisse
-              aliquet orci porta quam semper // imperdiet. Praesent euismod mi
-              justo, faucibus scelerisque risus // cursus in. Sed rhoncus mollis
-              diam, sit amet facilisis lectus blandit // at. imperdiet. Praesent
-              euismod mi justo, faucibus scelerisque risus // cursus in. Sed
-              rhoncus mollis diam, sit amet facilisis lectus blandit // at.
+ Hello! I am a Full Stack Web Developer with work experience in Quality Assurance. I have a BE in Computer Engineering and Engineering Managment with a minor in Political Studies.
+I love solving problems and working on new challenges everyday. I also love to learn new skills and enjoy building user friendly websites. My work experience helps me visualize the best version of the app that is intuitive as well as functional. Based in Santa Clara Valley, CA.
             </p>
           </div>
           <div className="col-md-4 .col-xs-6">

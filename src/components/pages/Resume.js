@@ -1,4 +1,5 @@
 import React from "react";
+import resume from './resume.pdf'
 
 const Resume = () => {
   return (
@@ -28,13 +29,19 @@ const Resume = () => {
             <li>Git/Github</li>
           </ul>
         </div>
-
-         <a href="https://github.com/imanmansour86/react-portfolio/blob/main/Iman_Mansour_Resume%20.pdf" className="card-link" target="_blank">
+         { <a href={resume} className="card-link" target="_blank">
 
 
           {" "}
           <i className="fa fa-file"></i> &nbsp;View Resume{" "}
-        </a> 
+        </a>  }
+
+ <div id='resume' class='resume'>
+            <iframe title='resume' src={resume}  />
+        </div>
+
+
+        
       </div>
     </div>
   );

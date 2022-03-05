@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "GetMoving",
     description:
-      "Social exercise activity app the allows users to add and view activities, as well as signup for activities.Built using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication",
+      "Social exercise activity app the allows users to add and view activities, as well as signup for activities. Built using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication",
     repoLink: "https://github.com/imanmansour86/get-moving",
     demoLink: "https://pacific-wildwood-76799.herokuapp.com/",
     image: "getMoving.gif",
@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     title: "Social Network API",
     description:
-      "API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. Built using Express.js, MongoDB, and Mongoose ODM",
+      "API for a social network web application where users can share their thoughts, react to friend’s thoughts, and create a friend list. Built using Express.js, MongoDB, and Mongoose ODM",
     repoLink: "https://github.com/imanmansour86/social-network-API",
     demoLink:
       "https://drive.google.com/file/d/13MybBc7J8yTOBMMDrfyQrGuwH1rOQ4CJ/view",
@@ -26,7 +26,7 @@ const projects = [
     id: 3,
     title: "Tech Blog",
     description:
-      "CMS-style blog site where users can publish blog posts and comment on other’ posts . The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication",
+      "CMS-style blog site where users can publish blog posts and comment on other’s  posts. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication",
     repoLink: "https://github.com/imanmansour86/tech-blog",
     demoLink: "https://quiet-mesa-73726.herokuapp.com/",
     image: "techblog.gif",
@@ -44,7 +44,7 @@ const projects = [
     id: 5,
     title: "Map-A-Test",
     description:
-      "Location based COVID tests app that shows testing location near you based on user's lat/lng or an address. The test site is displayed as a marker on the map with test locations in infowindow",
+      "Location based COVID tests app that shows testing location near you based on user's lat/lng or an address. The test site is displayed as a marker on the map with test locations in info window",
     repoLink: "https://github.com/imanmansour86/find-covid-testing",
     demoLink: "https://laurendarrimon.github.io/find-covid-testing/",
     image: "maptest.gif",
@@ -64,7 +64,7 @@ const projects = [
     description:
       "A timed quiz coding app about JavaScript fundamentals. It runs in the browser and features dynamically updated content powered by Javascript",
     repoLink: "https://github.com/imanmansour86/code-quiz",
-    demoLink: "https://imanmansour86.github.io/weather-dashboard/",
+    demoLink: "https://imanmansour86.github.io/code-quiz/",
     image: "quiz.gif",
   },
 ];
@@ -85,7 +85,7 @@ const Portfolio = () => {
                 <i className="fa fa-github"></i> &nbsp;Github{" "}
               </a>
               <br />
-              <a href="#" className="card-link">
+              <a href={project.demoLink} className="card-link">
                 <i className="fa fa-desktop"></i>&nbsp; Deployed
               </a>
             </div>
