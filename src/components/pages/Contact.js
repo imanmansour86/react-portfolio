@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import validateEmail from "../../utils/helpers";
 import Error from "./Error";
+import Zoom from "react-reveal/Slide";
 
 const emptyObject = { value: "", error: undefined };
 const Contact = () => {
@@ -55,7 +56,9 @@ const Contact = () => {
 
   return (
     <div className="form">
-      <h1 className="card-title">Contact</h1>
+      <Zoom left>
+        <h1 className="card-title">Contact</h1>
+      </Zoom>
       <form>
         <div className="form-group">
           <label htmlFor="exampleInputEmail1">Name</label>

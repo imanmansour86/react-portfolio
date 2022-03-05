@@ -1,12 +1,14 @@
 import React from "react";
 import resume from "./resume.pdf";
+import Zoom from "react-reveal/Slide";
 
 const Resume = () => {
   return (
     <div className="container">
       <div>
-        <h3>Technical Skills</h3>
-
+        <Zoom left>
+          <h3>Technical Skills</h3>
+        </Zoom>
         <div className="skills">
           <h4>Front-End</h4>
           <ul>

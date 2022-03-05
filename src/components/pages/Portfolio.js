@@ -1,4 +1,5 @@
 import React from "react";
+import Zoom from "react-reveal/Slide";
 
 const projects = [
   {
@@ -72,7 +73,9 @@ const projects = [
 const Portfolio = () => {
   return (
     <div className="container">
-      <h3>Portfolio</h3>
+      <Zoom left>
+        <h3>Portfolio</h3>
+      </Zoom>
       {projects.map((project) => (
         <div>
           <h4>{project.title}</h4>
