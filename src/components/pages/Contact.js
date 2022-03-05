@@ -33,10 +33,10 @@ const Contact = () => {
     }
     if (!userName.value) {
       console.log("ssss");
-      setUserName({ value: userName.value, error: "Invalid username" });
+      setUserName({ value: userName.value, error: "Required field" });
     }
     if (!message.value) {
-      setMessage({ value: message.value, error: "Invalid message" });
+      setMessage({ value: message.value, error: "Required field" });
     }
     //return true if all inputs are true
     return validateEmail(email.value) && !!userName.value && !!message.value;
@@ -112,6 +112,7 @@ const Contact = () => {
         >
           Send &rarr; &nbsp;<i className="fa-solid fa-chevrons-right"></i>
         </button>
+        <br />
         {submitMessage && <div>{submitMessage}</div>}
       </form>
     </div>
