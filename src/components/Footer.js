@@ -29,6 +29,7 @@ const Footer = () => {
             style={styles.google}
             href="mailto:imanmansour86@gmail.com"
             role="button"
+            target="_blank"
           >
             <i className="fa fa-google"></i>
           </a>
@@ -37,6 +38,7 @@ const Footer = () => {
             style={styles.github}
             href="https://github.com/imanmansour86"
             role="button"
+            target="_blank"
           >
             <i className="fa fa-github"></i>
           </a>
@@ -45,6 +47,7 @@ const Footer = () => {
             style={styles.linkedIn}
             href="https://www.linkedin.com/in/imanmansour/"
             role="button"
+            target="_blank"
           >
             <i className="fa fa-linkedin"></i>
           </a>
