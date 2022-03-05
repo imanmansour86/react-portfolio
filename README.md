@@ -6,7 +6,7 @@
 
 # Portfolio
 
-This website shows Portfolio built in React. Deployed on Github Pages.
+This website shows Portfolio built in React that has several componenets. Deployed on Github Pages
 
 ## Deployed Link
 
@@ -35,7 +35,7 @@ This website shows Portfolio built in React. Deployed on Github Pages.
 
 ## Features
 
-The app has Header, Navigation, Project, Error and Footer components. The Header and Footer components appear on all pages. The Navigation component within the header us used to conditionally render the different sections of the portfolio. The single Project component is used multiple times in the Portfolio section to show the projects. The contact form has input validation for the email and required input for username and message
+The app has Header, Navigation, Project, Error and Footer components. The Header and Footer components appear on all pages. The Navigation component within the header is used to conditionally render different sections of the portfolio. The single Project component is used multiple times in the Portfolio section to show the projects. The contact form has input validation for the email and required input for username and message
 
 ## Built With
 
