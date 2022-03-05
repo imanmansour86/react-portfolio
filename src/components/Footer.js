@@ -2,7 +2,7 @@ import React from "react";
 
 const styles = {
   footer: {
-    backgroundColor: "#f1f1f1",
+    backgroundColor: "transparent",
   },
   copyright: {
     color: "#1b9aaa",
@@ -23,7 +23,7 @@ const Footer = () => {
   return (
     <footer className="text-center text-white" style={styles.footer}>
       <div className="container pt-4">
-        <section className="mb-4">
+        <section className=" footer-icon mb-4">
           <a
             className="btn btn-primary btn-floating m-1"
             style={styles.google}

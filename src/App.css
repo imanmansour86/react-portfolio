@@ -146,3 +146,13 @@ footer {
 .skills {
   padding-left: 20px;
 }
+
+.content {
+  min-height: 100vh;
+}
+
+footer{
+position: static;
+  margin-top: auto;
+  padding-top: 200px;
+}
