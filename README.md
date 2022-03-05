@@ -6,29 +6,36 @@
 
 # Portfolio
 
-This website shows Portfolio page. Users can view projects created by the portfolio owner, as well as contact the owner for information. Each project has a title, descriptions, and link to repo URL and demo URL/demo video. The website uses Sequelize as the ORM with client side JS that request JSON from API routes from the database query.
+This website shows Portfolio built in React. Deployed on Github Pages.
 
 ## Deployed Link
 
-- [Deployed]()
+- [Deployed](https://imanmansour86.github.io/react-portfolio/)
 
 ## Table of Contents
 
+- [Portfolio](#portfolio)
+  - [Deployed Link](#deployed-link)
+  - [Table of Contents](#table-of-contents)
+  - [Usage](#usage)
+  - [Features](#features)
+  - [Built With](#built-with)
+  - [Author](#author)
+  - [License](#license)
+
 ## Usage
 
-- Homepage
+- Potfolio Demo
 
-![Homepage](/public/images/home.png)
+![Demo](../../assets/../code/react-portfolio/src/assets/demo.gif)
 
-- Skills
+- Form validation
 
-![Homepage](/public/images/skills.png)
-
-- Footer
-
-![Homepage](/public/images/footer.png)
+![Demo](../../assets/../code/react-portfolio/src/assets/validate.gif)
 
 ## Features
+
+The app has Header, Navigation, Project, Error and Footer components. The Header and Footer components appear on all pages. The Navigation component within the header us used to conditionally render the different sections of the portfolio. The single Project component is used multiple times in the Portfolio section to show the projects. The contact form has input validation for the email and required input for username and message
 
 ## Built With
 
