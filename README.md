@@ -27,11 +27,11 @@ This website shows Portfolio built in React that has several componenets. Deploy
 
 - Potfolio Demo
 
-![Demo](../../assets/../code/react-portfolio/src/assets/demo.gif)
+![Demo](/public/demo.gif)
 
 - Form validation
 
-![Demo](../../assets/../code/react-portfolio/src/assets/validate.gif)
+![Demo](/public/validate.gif)
 
 ## Features
 
