@@ -7,6 +7,7 @@ const Contact = () => {
   const [email, setEmail] = useState(emptyObject);
   const [userName, setUserName] = useState(emptyObject);
   const [message, setMessage] = useState(emptyObject);
+  const [submitMessage, setSubmitMessage] = useState("");
 
   const handleInputChange = (e) => {
     const { target } = e;
@@ -47,6 +48,7 @@ const Contact = () => {
     setEmail(emptyObject);
     setUserName(emptyObject);
     setMessage(emptyObject);
+    setSubmitMessage("Thanks for contacting me!");
   };
 
   return (
@@ -110,6 +112,7 @@ const Contact = () => {
         >
           Send &rarr; &nbsp;<i className="fa-solid fa-chevrons-right"></i>
         </button>
+        {submitMessage && <div>{submitMessage}</div>}
       </form>
     </div>
   );
