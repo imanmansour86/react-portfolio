@@ -167,3 +167,9 @@ iframe {
   height: 170vh;
   overflow: hidden;
 }
+
+form {
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #dddbcb;
+}
