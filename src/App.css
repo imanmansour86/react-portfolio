@@ -173,3 +173,7 @@ form {
   border-radius: 1rem;
   background-color: #dddbcb;
 }
+
+a:hover {
+  color: #1b9aaa !important;
+}
