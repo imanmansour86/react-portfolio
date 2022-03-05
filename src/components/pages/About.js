@@ -1,6 +1,8 @@
 import React from "react";
 import Zoom from "react-reveal/Slide";
 
+import "aos/dist/aos.css";
+
 const About = () => {
   return (
     <div className="container">
@@ -10,7 +12,7 @@ const About = () => {
         </Zoom>
         <div className="row">
           <div className="col-md-8 .col-xs-12">
-            <p>
+            <p data-aos="fade-up">
               {" "}
               Hello! I am a Full Stack Web Developer with work experience in
               Quality Assurance. I have a BE in Computer Engineering and Masters

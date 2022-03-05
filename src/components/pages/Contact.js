@@ -59,7 +59,7 @@ const Contact = () => {
       <Zoom left>
         <h1 className="card-title">Contact</h1>
       </Zoom>
-      <form>
+      <form data-aos="fade-right">
         <div className="form-group">
           <label htmlFor="exampleInputEmail1">Name</label>
           <input

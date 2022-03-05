@@ -77,7 +77,7 @@ const Portfolio = () => {
         <h3>Portfolio</h3>
       </Zoom>
       {projects.map((project) => (
-        <div>
+        <div data-aos="fade-up" data-aos-duration="3000">
           <h4>{project.title}</h4>
           <div key={project.id} className="row">
             <div className="col-md-4 .col-xs-12">

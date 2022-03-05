@@ -2,8 +2,11 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import PortfolioContainer from "./components/PortfolioContainer";
-import Zoom from "react-reveal/Zoom"; // Importing Zoom effect
+import Aos from "aos";
 
-const App = () => <PortfolioContainer />;
+const App = () => {
+  Aos.init();
+  return <PortfolioContainer />;
+};
 
 export default App;

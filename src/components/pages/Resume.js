@@ -6,9 +6,8 @@ const Resume = () => {
   return (
     <div className="container">
       <div>
-        <Zoom left>
-          <h3>Technical Skills</h3>
-        </Zoom>
+        <h3 data-aos="fade-right">Technical Skills</h3>
+
         <div className="skills">
           <h4>Front-End</h4>
           <ul>
