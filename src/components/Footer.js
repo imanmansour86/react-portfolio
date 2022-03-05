@@ -32,7 +32,6 @@ const Footer = () => {
           >
             <i className="fa fa-google"></i>
           </a>
-
           <a
             className="btn btn-primary btn-floating m-1"
             style={styles.github}
@@ -41,7 +40,6 @@ const Footer = () => {
           >
             <i className="fa fa-github"></i>
           </a>
-
           <a
             className="btn btn-primary btn-floating m-1"
             style={styles.linkedIn}

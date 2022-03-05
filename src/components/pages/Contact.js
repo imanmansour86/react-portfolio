@@ -37,6 +37,7 @@ const Contact = () => {
     if (!message.value) {
       setMessage({ value: message.value, error: "Invalid message" });
     }
+    //return true if all inputs are true
     return validateEmail(email.value) && !!userName.value && !!message.value;
   };
 

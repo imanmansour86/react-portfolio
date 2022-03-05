@@ -1,5 +1,5 @@
 import React from "react";
-import resume from './resume.pdf'
+import resume from "./resume.pdf";
 
 const Resume = () => {
   return (
@@ -17,7 +17,6 @@ const Resume = () => {
             <li>React</li>
           </ul>
         </div>
-
         <div className="skills">
           <h4>Back-End</h4>
           <ul>
@@ -29,19 +28,16 @@ const Resume = () => {
             <li>Git/Github</li>
           </ul>
         </div>
-         { <a href={resume} className="card-link" target="_blank">
+        {
+          <a href={resume} className="card-link" target="_blank">
+            {" "}
+            <i className="fa fa-file"></i> &nbsp;Open Resume{" "}
+          </a>
+        }
 
-
-          {" "}
-          <i className="fa fa-file"></i> &nbsp;Open Resume{" "}
-        </a>  }
-
- <div id='resume' class='resume'>
-            <iframe title='resume' src={resume}  />
+        <div id="resume" class="resume">
+          <iframe title="resume" src={resume} />
         </div>
-
-
-        
       </div>
     </div>
   );

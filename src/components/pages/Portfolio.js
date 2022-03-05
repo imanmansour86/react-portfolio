@@ -79,7 +79,6 @@ const Portfolio = () => {
           <div key={project.id} className="row">
             <div className="col-md-4 .col-xs-12">
               <p>{project.description}</p>
-
               <a href={project.repoLink} className="card-link" target="_blank">
                 {" "}
                 <i className="fa fa-github"></i> &nbsp;Github{" "}
