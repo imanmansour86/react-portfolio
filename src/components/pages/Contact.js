@@ -48,7 +48,7 @@ const Contact = () => {
     setEmail(emptyObject);
     setUserName(emptyObject);
     setMessage(emptyObject);
-    setSubmitMessage("Thanks for contacting me!");
+    setSubmitMessage("Thanks! We'll be in touch!");
   };
 
   return (
