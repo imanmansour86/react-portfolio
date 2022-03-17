@@ -3,7 +3,17 @@ import Zoom from "react-reveal/Slide";
 
 const projects = [
   {
-    id: 1,
+    id: 2,
+    title: "LaRoche Chocolate",
+    description:
+      "Full Stack E-Commerce website built using MySQL, Sequelize, Node, Express, JWT, React, Stripe and Google Analytics. Users can shop different kinds of chocolates and read about chocolate details for each product",
+    repoLink: "https://github.com/imanmansour86/choco-commerce",
+    demoLink: "https://peaceful-gorge-21480.herokuapp.com/",
+    image: "laroche.gif",
+  },
+
+  {
+    id: 2,
     title: "GetMoving",
     description:
       "Social exercise activity app the allows users to add and view activities, as well as signup for activities. Built using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication",
@@ -13,7 +23,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Social Network API",
     description:
       "API for a social network web application where users can share their thoughts, react to friend’s thoughts, and create a friend list. Built using Express.js, MongoDB, and Mongoose ODM",
@@ -24,7 +34,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Tech Blog",
     description:
       "CMS-style blog site where users can publish blog posts and comment on other’s  posts. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication",
@@ -33,7 +43,7 @@ const projects = [
     image: "techblog.gif",
   },
   {
-    id: 4,
+    id: 5,
     title: "Employee Tracker",
     description:
       "A command-line application that manages a company's employee database. It allows to easily view and interact with employee information stored in databases.Built using Node.js, Inquirer, and MySQL",
@@ -42,7 +52,7 @@ const projects = [
     image: "employeeTracker.gif",
   },
   {
-    id: 5,
+    id: 6,
     title: "Map-A-Test",
     description:
       "Location based COVID tests app that shows testing location near you based on user's lat/lng or an address. The test site is displayed as a marker on the map with test locations in info window",
@@ -51,7 +61,7 @@ const projects = [
     image: "maptest.gif",
   },
   {
-    id: 6,
+    id: 7,
     title: "Weather Dashboard",
     description:
       " An app that allows users to see weather conditions for cities. Using OpenWeather API, weather data for cities is displayed. The app uses Geocoding API as well as One Call API to get the results by city name then get the lat/lng to build our data",
@@ -60,7 +70,7 @@ const projects = [
     image: "weather.gif",
   },
   {
-    id: 7,
+    id: 8,
     title: "Code Quiz",
     description:
       "A timed quiz coding app about JavaScript fundamentals. It runs in the browser and features dynamically updated content powered by Javascript",
