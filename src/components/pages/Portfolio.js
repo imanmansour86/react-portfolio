@@ -3,7 +3,7 @@ import Zoom from "react-reveal/Slide";
 
 const projects = [
   {
-    id: 2,
+    id: 1,
     title: "LaRoche Chocolate",
     description:
       "Full Stack E-Commerce website built using MySQL, Sequelize, Node, Express, JWT, React, Stripe and Google Analytics. Users can shop different kinds of chocolates and read about chocolate details for each product",
